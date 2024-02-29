@@ -2,5 +2,11 @@
 "name": "No More Shorts",
 "description": "You won't have to deal with the terrible shorts UI ever again.",
 "version": "1.0",
-"manifest_version": 3
+"manifest_version": 3,
+"permissions": [
+    "tabs"
+  ],
+ "background": {
+   "service_worker": "service-worker.js"
+ }
 }
